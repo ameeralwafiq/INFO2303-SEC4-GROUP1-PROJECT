@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+    <link rel = "stylesheet" href = "Styles/NavigationBar.css">
+    <link rel = "stylesheet" href = "Styles/Booking_style.css">
+</head>
+
+
+
+<body>
+    <script src = "Javascript/booking_done_alert fx.js"></script>
+
+    <nav>
+        <a class = "logo-link" href = "Index.html">
+            <nav class = "nav-container">
+                <div class = "logo-container">
+                    <img class = "logo-img" src = "Image/triple tree logo_low.png">
+                    <h4>Triple Tree Suite</h4>
+                </div>
+            </nav> 
+        </a>
+
+        <ul class = "list-link-container">
+            <li><a class = "active" href = "Index.html">Home</a></li>
+            <li><a class = "passive" href = "Booking.html">Booking</a></li>
+            <li><a class = "passive" href = "RoomType.html">Room Type</a></li>
+            <li><a class = "passive" href = "Facility.html">Facility</a></li>
+            <li><a class = "passive" href = "AboutUs.html">About Us</a></li>
+            <li><a class = "passive" href = "ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class = "container-title">Booking Form</div>
+
+    <div class = "button-container">
+        <button id = "more">Click Here to Start Booking Your Room</button>
+    </div>
+
+<div class = "body">
+
+    <div class = "container">
+
+        <div class = "content">
+            <form action = "#" id = "form">
+
+                <div class = "user_details">
+
+                    <div class = "input_box">
+                        <label for = "fname">First Name: </label>
+                        <input type = "text" name = "fname" id = "fname">
+                    </div>
+
+                    <div class = "input_box">
+                        <label for = "lname">Last Name: </label>
+                        <input type = "text" name = "lname" id = "lname">
+                    </div>
+
+                    <div class = "input_box">
+                        <label for = "phone_no">Phone Number: </label>
+                        <input type = "text" name = "phone_no" id = "phone_no">
+                    </div>
+
+                    <div class = "input_box">
+                        <label for = "email_add">E-mail:  </label>
+                        <input type = "text" name = "email_add" id = "email_add">
+                    </div>
+
+                    <div class = "input_box">
+                        <label for = "check_in">Check-In Date: </label>
+                        <input type = "text" name = "check_in" id = "check_in">
+                    </div>
+
+                    <div class = "input_box">
+                        <label for = "check_out">Check-Out Date: </label>
+                        <input type = "text" name = "check_out" id = "check_out">
+                    </div>
+
+                    <div class = "input_box">
+                        <label for = "person_quantity">Number of Person: </label>
+                        <input type = "text" name = "person_quantity" id = "person_quantity">
+                    </div>
+
+                </div>
+
+                <div class = "button" onclick = "booking_done()">
+                    <input type = "submit" value = "book">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
