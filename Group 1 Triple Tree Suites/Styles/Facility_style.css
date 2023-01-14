@@ -1,0 +1,80 @@
+body {
+  background-color:  beige;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flexbox {
+  margin: 30px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flexbox-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-content {
+  width: 900px;
+  letter-spacing: 2px;
+  color: darkolivegreen;
+  text-align: center;
+  line-height: 30px;
+  font-weight: normal;
+   margin-bottom: 30px; 
+}
+
+.flexbox:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+
+.image {
+  margin: 20px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: darkolivegreen;
+  background-size: cover;
+}
+
+.page-title {
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: darkolivegreen;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.img1 {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/85/36/04/pool.jpg?w=700&h=-1&s=1");
+}
+
+.img2 {
+  background-image: url("https://cdn.tatlerasia.com/asiatatler/i/my/2018/11/05091751-v-botanical-spa-cover_cover_1584x780.jpg");
+}
+
+.img3 {
+  background-image: url("https://media.cntraveler.com/photos/5f6a575bf418844234b01030/master/pass/FourSeasonsSantaFe-2020.jpg");
+}
+
+.img4 {
+  background-image: url("https://hips.hearstapps.com/harpersbazaaruk.cdnds.net/17/08/2560x1280/landscape-1487674913-le-sirenuse-food.jpg?resize=480:*");
+}
+
+
