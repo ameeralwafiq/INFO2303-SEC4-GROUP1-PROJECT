@@ -64,7 +64,6 @@ All the work has been distribute equally to all the group member.
 | Photo        	| Hotel logo.png                                                                                                                                                         	| Create using Canva           	| -                                	|
 | Photo        	| Pool.jpg<br>Spa.jpg<br>Gym.jpg<br>Restauran.jpg<br>Single.jpg<br>Double.jpg<br>Twin.jpg<br>Regular.jpg                                                                 	| Taken from Google Image      	| -                                	|
 | Iframe       	| Hotel location                                                                                                                                                         	| Taken from Google Maps       	| Resize it                        	|
-| Audio        	| Flower (Crash Landing On You OST)-Instrumental.mp3<br>Rick Astley - Never Gonna Give You Up (Instrumental).mp3<br>Rick Astley - Never Gonna Give You Up (Official).mp3 	| Taken From YouTube           	| Convert from video to audio only 	|
 
 
 ## 5. References
