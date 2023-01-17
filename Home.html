@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+  <link rel="stylesheet" href="Styles/NavigationBar.css">
+  <link rel="stylesheet" href="Styles/Index_style.css" />
+    
+  <script src="Javascript/onoffline.js"></script>
+  <script src="Javascript/Index.js"></script>
+
+  <body>
+
+
+    <nav>
+      <a class="logo-link" href="Home.html">
+      <nav class="nav-container">
+        <div class="logo-container">
+          <img class="logo-img" src="Image/triple tree logo_low.png" />
+          <h4>Triple Tree Suites</h4>
+        </div>
+      </a>
+
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+  
+        <ul class="list-link-container">
+          <li><a class="active" href="Home.html">Home</a></li>
+          <li><a class="passive" href="Booking.html">Booking</a></li>
+          <li><a class="passive" href="Room.html">Room</a></li>
+          <li><a class="passive" href="Facility.html">Facility</a></li>
+          <li><a class="passive" href="About Us.html">About Us</a></li>
+          <li><a class="passive" href="Contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+
+    <section class="flexbox-container">
+      <div   class="flexbox f1" >
+        <img   id="music-btn" class="logo-img1" src="Image/triple tree logo_low.png" />
+      </div>
+
+      <div class="flexbox f2">
+        <h1 class="image-title">Triple Tree Suites</h1>
+        <p class="trademark">Thrice the Comfort, Thrice the Experience</p>
+        <button class="learn-more" type="button" onclick="learn_more()">Learn more about our Suite</button>
+      </div>
+    </section>
+
+    
+  </body>
+</html>
